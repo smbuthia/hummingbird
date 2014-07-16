@@ -3,14 +3,13 @@
  * and open the template in the editor.
  */
 package hummingbird;
-
+//<editor-fold desc="imports" defaultstate="collapsed">
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.JFrame;
-
+//</editor-fold>
 /**
  *
  * @author smbuthia
@@ -28,14 +27,6 @@ public class Settings extends javax.swing.JFrame {
      */
     public Settings() {
         initComponents();
-//        try {
-//            props.load(new FileInputStream("config.properties"));
-//            vlcLocationLabel.setText(props.getProperty("VLCLocation"));
-//
-//        } catch (FileNotFoundException ex) {} catch (IOException ex) {
-//            Logger.getLogger(Settings.class.getName()).log(Level.SEVERE, null, ex);
-//        }
-        
     }
 
     /**
